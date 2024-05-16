@@ -185,8 +185,8 @@ main{
     }
 
     .lbl{
-        width:calc(50% - 20px);
-        margin: 10px;
+        width:calc(50% - 10px);
+        margin: 10px 0;
     }
     
 }
@@ -195,7 +195,37 @@ main{
 @media screen and (min-width:1024px) {
 
     .lbl{
-        width: calc(100% / 3 - 20px);
+        width: calc(100% / 3 - 10px);
     }
     
+}   
+
+/****************** REGOLE SEZIONE ABOUT US************* */
+
+.container-flxabt{
+    padding: 30px 0;
+    /* debug */
+    background-color: darkslateblue;
+    /* min-height: 400px; */
+}
+
+#aboutus .col{
+    width: 100%;
+    /* debug */
+    margin: 30px 0;
+}
+
+/* REGOLE TABLET AND DESKTOP ABOUT US */
+
+@media screen and (min-width:568px){
+
+    .container-flxabt{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #aboutus .col{
+        width: calc(50% - 10px);
+        min-height: 100%;
+    }
 }
