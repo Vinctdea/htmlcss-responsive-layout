@@ -68,9 +68,10 @@ header{
     }
 }
 
-/* REGOLE MAIN */
+/********************* REGOLE MAIN********************************/
 
-/* regole sezione info */
+
+/* ***********regole sezione info********* */
 main{
     margin-top: 100px;
 }
@@ -103,7 +104,7 @@ main{
     }
 }
 
-/* SEZIONE STRATEGIC */
+/****************** SEZIONE STRATEGIC **********************/
 #strategic{ 
     background-color: rgb(143, 103, 236);
     width: 100%;
@@ -127,7 +128,7 @@ main{
     margin: 10px 0;
 }
 
-/* regole desktop strategic */
+/**************** regole desktop strategic******************** */
 @media all and (min-width: 1024px) {
 
     .cont-strg{
@@ -139,5 +140,21 @@ main{
    }
     
 
+/*************** REGOLE SEZIONE TESTIMONIAL********************/
+#testimonial{
+    padding: 30px 0;
+    /* debug */
+    background-color: coral;
+    min-height: 300px ;
+    }
+
+    .schede{
+        margin: 10px 0;
+        /* debug */
+        background-color: rgb(67, 161, 23);
+        width: 100%;
+        min-height: 50px;
+
+    }
 
 
