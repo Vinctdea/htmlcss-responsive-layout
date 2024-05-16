@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive</title>
+   <!-- font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -11,9 +19,22 @@
     <!--  header -->
     <header>
         <div class="layout row">
-            <div class="col"></div>
-            <div id="menu-nav" class="col "></div>
-            <div id="hamburger" class="col"></div>
+            <div class="col logo">
+                <a href="#"><img src="img/logo.png" alt="logo"></a>
+            </div>
+            <nav id="menu-nav" class="col ">
+                <ul >
+                    <li><a href="#">Planning</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li ><a class="btn" href="#">Get Started</a></li>
+                </ul>
+
+            </nav>
+            <div id="hamburger" class="col">
+                <i class="fa-solid fa-bars"></i>
+            </div>
         </div>
 
     </header>
