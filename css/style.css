@@ -1,0 +1,60 @@
+/* REGOLE GENERALI */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.layout{
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* REGOLE HEADER */
+
+header{
+    background-color: rgb(14, 95, 245);
+    position: fixed;
+    top: 0;
+    z-index: 800;
+    height: 70px;
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.col{
+
+    /* debug */
+    width: 300px;
+    height: 50px;
+    background-color: black;
+}
+
+#menu-nav{
+    display: none;
+}
+
+#hamburger{
+
+    /* debug */
+    width: 50px;
+    height: 50px;
+    background-color: white;
+}
+
+/* regole desktop header */
+
+@media screen and (min-width:1024px) {
+    
+    #menu-nav{
+        display: block;
+    }
+    
+    #hamburger{
+        display: none;
+    }
+}
