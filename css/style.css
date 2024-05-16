@@ -21,6 +21,7 @@ header{
     width: 100%;
 }
 
+
 .row{
     display: flex;
     justify-content: space-between;
@@ -36,6 +37,8 @@ header{
 
 #menu-nav{
     display: none;
+    /* debug */
+    background-color: crimson;
 }
 
 #hamburger{
@@ -49,6 +52,10 @@ header{
 /* regole desktop header */
 
 @media screen and (min-width:1024px) {
+
+    .layout{
+        width: 70%;
+    }
     
     #menu-nav{
         display: block;
@@ -58,3 +65,22 @@ header{
         display: none;
     }
 }
+
+/* REGOLE MAIN */
+
+main{
+}
+
+.item{
+    width: 100%;
+    margin: 30px 0;
+    /* debug */
+    min-height: 50px;
+    background-color: darkmagenta;
+}
+
+
+
+
+
+
