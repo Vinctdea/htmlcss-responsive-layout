@@ -158,12 +158,12 @@ main{
 
 
 /************** REGOLE SEZIONE BENEFIT*****************/
-#benefit{
+#benefit , #get-started{
     background-color: rgb(143, 103, 236);
     padding: 30px 0;   
 
     /* debug */
-    min-height: 600px;       
+    min-height: 300px;       
     }
 
 .lbl{
@@ -228,4 +228,13 @@ main{
         width: calc(50% - 10px);
         min-height: 100%;
     }
+}
+
+/* REGOLE SEZIONE GET STARTED */
+
+.cont-bot{
+    width: 100%;
+    /* debug */
+    min-height: 100px;
+    background-color: darkgreen;
 }
