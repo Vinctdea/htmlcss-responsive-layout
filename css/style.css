@@ -17,8 +17,10 @@ body{
 }
 
 img{
+    display: block;
     max-width: 100%;
     max-height: 100%;
+    
 }
 
 li {
@@ -26,7 +28,7 @@ li {
     
 }
 
-li a{
+a{
     text-decoration: none;
     cursor: pointer;
     color: white;
@@ -48,8 +50,8 @@ header{
 .btn{
     background-color: white;
     color: black;
-    border-radius:10px ;
-    padding: 2px 5px;
+    border-radius:20px ;
+    padding: 2px 10px;
     
 }
 
@@ -121,14 +123,34 @@ main{
 .item{
     width: 100%;
     margin: 30px 0;
+    border-radius: 30px;
+    color: rgb(4, 65, 235);
+    padding: 5% 5% 0 5%;
+    background-color: rgb(159, 216, 255);
     /* debug */
     min-height: 200px;
-    background-color: darkmagenta;
 }
 
-/* REGOLE INFO tablet and desktop */
+#flx-ctn h3{
+    font-size: 30px;
+}
 
-/* sezione info */
+#sx > *{
+    margin-bottom: 30px;
+}
+
+#sx .btn{
+    background-color: rgb(24, 75, 241);
+    padding: 8px 50px;
+    color: white;
+}
+
+#cont-img{
+    width: 100%;
+}
+
+/*********** REGOLE INFO tablet  *****************/
+
 @media screen and (min-width: 568px) {
 
     #flx-ctn{
@@ -144,7 +166,25 @@ main{
     #it-double{
         width: calc(100%/3 *2 - 5px );
     }
+
 }
+
+/************* regole info desktop *************/
+
+@media screen and (min-width: 1024px) {
+
+    #it-double{
+        display: flex;
+                        
+    }
+
+    #dx{
+       align-self: flex-end;
+    }
+    
+}
+
+
 
 /****************** SEZIONE STRATEGIC **********************/
 #strategic{ 
