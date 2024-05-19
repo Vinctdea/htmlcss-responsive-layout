@@ -20,6 +20,7 @@ img{
     display: block;
     max-width: 100%;
     max-height: 100%;
+    object-fit: cover;
     
 }
 
@@ -276,6 +277,7 @@ main{
 /*************** REGOLE SEZIONE TESTIMONIAL********************/
 #testimonial{
     padding: 30px 0;
+
     /* debug */
     /* background-color: coral;
     min-height: 300px ; */
@@ -308,10 +310,45 @@ main{
     .label img{
         width: 150px;
         height: 150px;
-        border-radius: 50%;
-        
+        border-radius: 50%; 
+        margin: 0 auto;
+       
         
     }
+
+    #spaz p {
+        margin: 30px 0;
+
+    }
+
+     #spaz p::before{
+        content: ' \275D';
+        font-size: 30px;
+    }
+
+
+    #spaz p::after{ 
+        content: ' \275E';
+        font-size: 30px;
+
+    }
+
+
+    /**********REGOLE TABLET AND DESKTOP TESTIMONIAL****************/
+    @media screen and (min-width:568px){
+
+       .label{
+        display: flex;
+        text-align: left;
+        
+       } 
+
+       #spaz  {
+       margin: 30px;
+       }
+    }
+
+
 
 /************** REGOLE SEZIONE BENEFIT*****************/
 #benefit , #get-started{
