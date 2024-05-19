@@ -557,7 +557,16 @@ footer{
 }
 
 footer div{
+    color: white;
+    text-align: center;
+    margin: 30px auto;
     /* debug */
-    background-color: darkgoldenrod;
-    min-height: 100px;
+    /* background-color: darkgoldenrod;
+    min-height: 100px; */
+}
+
+
+footer a{
+    color:rgb(143, 103, 236);
+    text-decoration: underline;
 }
