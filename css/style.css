@@ -116,7 +116,7 @@ main{
     background-color: rgb(159, 216, 255);
     text-align: center;
     /* debug */
-    min-height: 200px;
+    /* min-height: 200px; */
 }
 
 #flx-ctn h3{
@@ -509,7 +509,7 @@ main{
 
 
 #get-started *{
-    margin: 30px auto;
+    margin: 30px auto 0 auto;
 }
 
 #get-started h3{
@@ -531,7 +531,6 @@ main{
 #get-started a{
     display: inline-block;
     text-decoration: underline;
-
 }
 
 #get-started ul, li{
@@ -540,8 +539,7 @@ main{
 }
 
 #get-started li::before{
-    content: ' \2022';
-    
+    content: ' \2022'; 
 }
 
 #mar-bot{
@@ -564,7 +562,6 @@ footer div{
     /* background-color: darkgoldenrod;
     min-height: 100px; */
 }
-
 
 footer a{
     color:rgb(143, 103, 236);
